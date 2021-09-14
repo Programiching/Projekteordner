@@ -1,0 +1,293 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+   background-color: #42455a; 
+}
+
+.logo{
+    width: 5%;
+    margin-left: 875px;
+    margin-top: 40px;
+}
+
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 257px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 90px;
+}
+
+.app-text p{
+    width: 650px;
+    font-size: 30px;
+    margin: 30px 0 30px 90px;
+    color: #919191;
+}
+
+.app-picture{
+    width: 50%;
+    float: right;
+}
+
+.app-picture img{
+    width: 93%;
+    margin-top: 0px;
+    padding-left: 90px;
+}
+
+.social-icons{
+    margin-left: 875px;
+    bottom: 35px;
+    position: fixed;
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.social-icons ul li a{
+    color: #999;
+    display: block;
+    margin: 10px;
+}
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #ccac00;
+    transition: all .5s ease;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #ccac00;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 7%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid #ccac00;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: #ccac00;
+    background-color: #42455a;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: black;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+
+.banner2{
+    width: 80%;
+    height: 100%;
+    top: 15%;
+    left: 257px;
+    position: absolute;
+    color: #fff;
+}
+
+
+.app-picture2{
+    width: 50%;
+    float: right;
+}
+
+.app-picture2 img{
+    width: 93%;
+    margin-top: 150px;
+    padding-left: 90px;
+}
+
+.banner3{
+    width: 80%;
+    height: 100%;
+    top: 15%;
+    left: 257px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-picture3{
+    width: 50%;
+    float: right;
+}
+
+.app-picture3 img{
+    width: 93%;
+    margin-top: 150px;
+    padding-left: 90px;
+}
+
+
+.app-text2{
+    width: 50%;
+    float: left;
+}
+
+.app-text2 h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 90px;
+}
+
+.app-text2 p{
+    width: 650px;
+    font-size: 25px;
+    margin: 30px 0 30px 90px;
+    color: #919191;
+}
+
+.app-picture4{
+    width: 50%;
+    float: right;
+}
+
+.app-picture4 img{
+    width: 63%;
+    margin-top: 120px;
+    padding-left: 140px;
+}
+
+
+.banner4{
+    width: 80%;
+    height: 100%;
+    top: 15%;
+    left: 150px;
+    position: absolute;
+    color: #fff;
+    margin-left: 350px;
+}
+
+.app-text3{
+    width: 50%;
+    float: left;
+}
+
+
+.app-text3 h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.app-text3 p{
+    width: 650px;
+    font-size: 30px;
+    margin: 30px 0 30px 90px;
+    color: #919191;
+    text-align: center;
+}
+
+.h2{
+    margin-left: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+a:link{
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+
+

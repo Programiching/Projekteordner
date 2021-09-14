@@ -1,0 +1,23 @@
+.download{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.download a{
+    display: block;
+    background: #d2b82e;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 320px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.download a:hover{
+    background: #ffd700;
+}
